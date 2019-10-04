@@ -1,0 +1,61 @@
+body{
+  font-family: Helvetica, Verdana, sans-serif;
+  color: #939396;
+  background-color: #1d2475;
+  background-image: url("./baba.PNG");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+}
+
+h1, h2{
+  color: #f7931e;
+}
+h1{
+  font-size: 40pt;
+  text-shadow: 3px -3px green;
+}
+table, td, tr{
+  border-style: dotted;
+  border-collapse: collapse;
+}
+ol, ul, blockquote{
+  text-align: left;
+}
+ul{
+  list-style-type: square;
+}
+dl{
+  font-size: 40%;
+}
+dt{
+  font-weight: bold;
+  color: #fff86b;
+}
+
+strong{
+  color: #fff86b;
+}
+
+q{
+  color: #d1dfeb;
+}
+
+p::first-letter{
+  font-weight: bold;
+  font-size: 150%;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+img{
+  outline: medium ridge #f7931e;
+}
+a>img{
+  outline: none;
+}

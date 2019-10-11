@@ -5,7 +5,7 @@ body{
   margin-right: 10%;
 }
 
-body :not(main):not(header):not(div):not(nav):not(article):not(section):hover{
+body :not(div):hover{
   background-color: #a6ce39;
 }
 

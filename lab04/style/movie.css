@@ -1,0 +1,70 @@
+body{
+  background-image: url("../image/background.png");
+
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-image: url("../image/bannerbg.png");
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+h1{
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 24pt;
+  font-weight: bold;
+
+  text-align: center;
+  text-shadow: 3px 3px #999999;
+}
+
+main{
+  border: 4px solid grey;
+  border-radius: 20px;
+  
+  margin: auto;
+
+  width: 800px;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+
+}
+
+.contents{
+  display: flex;
+}
+
+.ratings{
+
+}
+
+.grade{
+  background-image: url("../image/rbg.png");
+
+  width: 100%;
+  height: 83px;
+
+  display: flex;
+}
+.grade > img{
+  vertical-align: bottom;
+  height: 83px;
+}
+.grade > span{
+  font-size: 48pt;
+  font-weight: bold;
+  color: red;
+}
+
+.reviews{
+  
+}

@@ -1,18 +1,21 @@
 body{
   background-image: url("../image/background.png");
 
+  margin: 0px;
+  padding: 0px;
+
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 8pt;
 
-  margin: 0px;
-  padding: 0px;
 }
 
 header{
   background-image: url("../image/bannerbg.png");
-  text-align: center;
+
   width: 100%;
   height: 50px;
+
+  text-align: center;
 }
 
 h1{
@@ -44,7 +47,7 @@ main{
 }
 
 .ratings{
-
+  width: 550px;
 }
 
 .grade{
@@ -66,5 +69,75 @@ main{
 }
 
 .reviews{
-  
+  float: left;
+  margin-left: 2%;
+  width: 47%;
+}
+.reviews > p:nth-child(2n-1){
+  border: 2px solid grey;
+  border-radius: 10px;
+
+  background-color: #e8dc9b;
+
+  padding: 8px;
+
+  font-size: 8pt;
+  font-weight: bold;
+
+  overflow: hidden;
+}
+.reviews > p:nth-child(2n){
+  float: left;
+
+  margin: 0px;
+  margin-bottom: 20px;
+
+  width: 100%;
+}
+.reviews > p:nth-child(2n) > span{
+  font-style: italic;
+}
+.reviews > p > img{
+  float: left;
+  margin-right: 5px;
+}
+
+.info{
+  background-color: #A2B964;
+
+  width: 250px;
+
+  font-family: Arial, sans-serif;
+  font-size: 8pt;
+}
+.info dl{
+  margin: 10pt;
+}
+.info dt{
+  margin-top: 10pt;
+  font-weight: bold;
+}
+.info ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+footer{
+  background-color: #A2B964;
+
+  padding: 5px;
+  margin: 0px;
+
+  text-align: center;
+}
+footer>p{
+  margin: 0px;
+}
+
+.validation{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.5;
 }

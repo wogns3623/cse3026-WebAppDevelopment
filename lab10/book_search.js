@@ -7,6 +7,7 @@ window.onload = function() {
       onSuccess: showBooks_XML,
       onFailure: ajaxFailed
     });
+
     new Ajax.Request("", {
       method: "get",
       parameters: { category: getCheckedRadio($$("input")) },
